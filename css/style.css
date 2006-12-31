@@ -1,0 +1,908 @@
+.my-img-responsive{
+	width: auto;
+	max-width: 100%;
+}
+
+a{
+	cursor: pointer;
+}
+
+.flexible{
+	width: 100%;
+	height: auto;
+	display: table;
+	padding: 3rem 0rem;
+	position: relative;
+}
+
+.my-text{
+	color: #87BA00;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.white{
+	color: white;
+}
+
+ .color{
+ 	color: #84BD00;
+ }
+
+/* common overwrite */
+
+
+/* navbar */
+
+.custom-btn button{
+	margin-left: 15px;
+	margin-top: 14px;
+}
+
+#navigation{
+	z-index: 999;
+}
+
+.custom-nav{
+	margin: 0px;
+background: #fff;
+border: 0px;
+height: auto;
+overflow: hidden;
+border-radius: 0px;
+box-shadow: 0px -7px 42px -6px #0006;
+padding: 0px;
+}
+
+.custom-btn li{
+	vertical-align: middle;
+}
+
+.my-primary{
+	background: #84BD00;
+	border: none;
+	padding: 1.3rem 3rem;
+	font-size: 17px;
+}
+
+.my-custom{
+	border: 2px solid lightgray;
+	padding: 1.3rem 3rem;
+	font-size: 17px;
+}
+
+.navbar-nav{
+	margin: 0px !important;
+}
+
+.custom-btn > li >a {
+	padding: 3rem 3.2rem;
+font-size: 17px;
+}
+
+.navbar-brand{
+	transform: scale(2.3);
+margin-top: 1.2rem;
+cursor: pointer;
+}
+
+/* main banner */
+
+.banner{
+	height: 600px;
+	padding: 5rem 2rem;
+}
+
+.margin{
+	margin-top: 80px;
+}
+
+#mainb{
+	background: url('../images/banner1.jpg') no-repeat center center;
+	background-size: cover;
+}
+#mainb h1{
+	font-size: 50px;
+}
+#mainb p.lead{
+	margin-top: 3rem;
+	line-height: 4rem;
+	font-size: 2.5rem;
+}
+#mainb a{
+	line-height: 3rem;
+}
+
+.banner-btn{
+	padding: 1.1rem 9rem;
+font-size: 20px;
+border-radius: 0px;
+margin-top: 7rem;
+margin-bottom: 7rem;
+}
+
+/* second section take control */
+
+#bigB{
+	padding-bottom: 0px;
+}
+
+.custom-header h1{
+	font-size: 50px;
+	color: gray;
+}
+
+#read{
+	background: url('../images/1bg_1920x1080_home_netvibesbusiness.jpg') no-repeat center center;
+	padding: 6rem 0rem;
+	background-size: cover;
+}
+
+.my-list li{
+	position: relative;
+	padding: .7rem 0rem;
+	width: auto;	
+	font-size: 1.7rem;
+}
+
+.my-list{
+	list-style: square inside url("../images/arrowhead-pointing-to-the-right.png");
+	position: relative;
+}
+
+#vip{
+	background: url('../images/2bg_1920x1080_home_netvibesbusiness.jpg') no-repeat center center;
+	padding: 6rem 0rem;
+	background-size: cover;
+}
+
+.btn-my{
+	border-radius: 0px;
+color: #fb627e;
+font-weight: 300;
+padding: 1rem 4rem;
+border: none;
+}
+
+/* netvibes bussiness section */
+
+#netvibes{
+	background: url('../images/3bg_1920x1080_home_netvibesbusiness.jpg') no-repeat center center;
+	padding: 5rem 0rem;
+	background-size: cover;
+}
+
+#netvibes p{
+	line-height: 35px;
+font-size: 16px;
+
+}
+
+.pos{
+	position: relative;
+	top: 52px;
+}
+
+/* serve last one section */
+
+#panel1{
+	background: url('../images/ill_Premium_case-home.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+
+#panel2{
+	background: url('../images/ill_vip_case-home.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+
+#panel3{
+	background: url('../images/ill_basic_case-home.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+
+
+.img-holder{
+	width: 100%;
+	position: relative;
+	height: 160px;
+}
+
+.custom-body{
+	background: #efe4e4;
+color: #6c6363;
+font-size: 1.8rem;
+
+}
+
+/* our brand section */
+
+.brand{
+	background: lightgray;
+	padding: 5rem 0rem;
+}
+
+/* election section */
+
+#election p{
+	line-height: 33px;
+font-size: 1.8rem;
+}
+
+#election p > a{
+	color: #85BE00;
+}
+
+/* call action */
+
+.call-action{
+	background: #fff;
+}
+
+.callto{
+	width: 100%;
+background: #84BD00;
+color: white;
+padding: 3rem 1rem;
+font-size: 31px;
+border: none;
+border-radius: 0px;
+
+}
+
+.callto:hover , .callto:focus , .callto:active , .callto:active:focus{
+	background: #84BD00;
+}
+
+/* footer */
+
+.common-footer{
+	margin-bottom: 2rem;
+}
+
+.common-footer ul li{
+	padding: .8rem 0rem;
+}
+
+.common-footer ul li>a{
+	color: black;
+	transition: .2s all ease;
+}
+
+.common-footer ul li >a:hover{
+	color: #84BD00;
+	text-decoration: none;
+}
+
+.linkers > li{
+	padding: 2px 7px !important;
+	background: #808080e6;
+	border-radius: 5px;
+	color: white;
+	width: 28px;
+height: 26px;
+transition: .2s all ease;
+text-align: center;
+
+}
+
+.linkers > li > a{
+	color: white !important;
+	vertical-align: middle;
+}
+
+.linkers> li:hover{
+	background: #808080b3;
+}
+
+/* checkbox toggle */
+
+ /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #84BD00;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider::before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+} 
+
+
+/* ================
+	modal style
+====================*/
+
+.modal-header{
+	border-bottom: 0;
+}
+
+.my-control{
+	width: 80%;
+	margin: auto;
+	height: 50px;
+}
+
+.checkbox{
+	width: 80%;
+margin: auto;
+}
+
+.checkbox + .btn{
+	padding: 1.2rem 7rem;
+left: 31%;
+position: relative;
+}
+
+.modal-linker li{
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+}
+
+
+/*===================================
+		dashboard starts heree
+====================================*/
+
+/* nav */
+
+.top-bar{
+	background: #383838;
+	padding: 0rem 0rem;
+
+}
+
+#top{
+	padding: .8rem 2rem;
+	font-size: 14px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	margin-top: -3px;
+	margin-right: 5px;
+	box-shadow: 0px 4px 0px 0px #557213;
+}
+
+.d-left-section{
+	color: white;
+	margin-top: -14px;
+}
+
+.d-left-section a{
+	color: white;
+}
+
+#dSwitch{
+	transform: scale(.5);
+	position: relative;
+	top: 15px;
+}
+
+.d-center-section{
+	left: 50%;
+	position: relative;
+	margin-left: -27%;
+}
+.d-center-section input{
+	border-bottom-left-radius: 5px;
+	border: none;
+	height: 26px;
+	color: #453b3b;
+	width: 150px;
+	background: lightgray;
+	transition: .2s all ease;
+	padding: 0px 11px;
+}
+.d-center-section button{
+	margin-left: -1px;
+	border: 0;
+	width: 26px;
+	height: 26px;
+	background: #f2ebeb;
+	color: gray;
+	border-bottom-right-radius: 5px;
+}
+
+.custom-drop{
+	top: 15px;
+	border: none;
+	background: none;
+	height: 41px;
+}
+
+.custom-drop > button{
+	background: none;
+	color: white;
+	border: none;
+	border-radius: 0px;
+	height: 40px;
+}
+.custom-drop > button:hover , .custom-drop > button:focus{
+	background: #939393;
+} 
+
+/* little small banner */
+
+.d-banner{
+	background: url('../images/header-premium-vip.png') no-repeat center center;
+	background-size: cover;
+	height: 170px;
+}
+
+.d-vip{
+	background: #ffffff4d;
+	color: white;
+
+	position: relative;
+	padding: 1rem 3rem;
+}
+
+.vip-list{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.vip-list li{
+	font-size: 18px;
+}
+
+.vip-list li >span{
+	font-size: 30px;
+	margin-top: -15px;
+}
+
+#info{
+	position: relative;
+	top: 11px;
+	border-right: 1px solid white;
+}
+
+/* dashboard main content */
+
+.d-content{
+	padding: 0rem 0rem;
+	background: #d6d9df;
+}
+
+.custom-tabs{
+	margin-top: -41px;
+	margin-bottom: 20px;
+}
+
+.custom-tabs li{
+background: white;
+margin-right: 3px;
+border: none;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+	background: #D6D9DF;
+	border-radius: 0px;
+	border-bottom: 1px solid white;
+}
+
+#star{
+	color: #98B900;
+}
+
+/* first tab content */
+ /*welcome dashboard cntent */
+
+ .w-main{
+ 	width: 100%;
+ 	padding-top: 0px;
+ 	background: white;
+ 	margin-right: 10px;
+ }
+
+#resizable{
+	border-right: 2px solid white;
+}
+
+#resizable2{
+	border-right: 2px solid white;
+}
+
+#resizable3{
+	border-right: 2px solid white;
+}
+
+#resizable4{
+	border-right: 2px solid white;
+}
+
+#resizable5{
+	border-right: 2px solid white;
+}
+
+#resizable6{
+	border-right: 2px solid white;
+}
+
+#resizable7{
+	border-right: 2px solid white;
+}
+
+#resizable8{
+	border-right: 2px solid white;
+}
+
+#resizable9{
+	border-right: 2px solid white;
+}
+
+#resizable10{
+	border-right: 2px solid white;
+}
+
+ .w-main p span{
+ 	color: #84BD00;
+ }
+
+  .w-main p{
+  	font-size: 1.7rem;
+  	margin-top: 10px;
+  }
+
+ .w-main > h3{
+ 	background: #87BA00;
+ 	margin: 0px;
+ 	padding: 1rem 0rem;
+ }
+
+ .w-rem{
+
+ }
+
+ .custom-media p{
+ 	font-size: 12px;
+ }
+
+ .custom-m-l img{
+ 	margin-right: 2rem !important;
+ }
+
+.heloo{
+	border-right: 1px solid #d4d4d4;
+}
+
+.circle{
+	border: 1px solid #87BA00;
+	width: 110px;
+	height: 110px;
+	vertical-align: middle;
+	margin: auto;
+
+}
+
+.circle ~ button{
+	border-radius: 10px;	
+}
+
+/* little bottom two panels */
+
+.d-panel{
+	border-top: 4px solid #078d93;
+}
+.d-panel button{
+	top: -5px;
+	position: relative;
+}
+
+.d-panel .btn.focus, .d-panel .btn:focus,.d-panel .btn:hover{
+	background: white;
+}
+
+.first-row{
+	box-shadow: inset 5px -14px 48px 1px #0003;
+}
+
+.d-group a{
+	border: none;
+	border-left: 5px solid #84bd00;
+	background: #fceeee;
+
+	margin-bottom: 4px;
+}
+
+#toper{
+	border-left: 5px solid #078D93;
+}
+
+
+.list-group-item.active, .list-group-item.active:focus,{
+	background: #e2e2e2;
+	border: none;
+	color: gray;
+}
+
+.d-effect{
+	opacity: 0;
+	transition: .4s all ease;
+}
+a.list-group-item:hover > .d-effect{
+	opacity: 1;
+}
+
+
+
+/* checkbox styling */
+
+input[type=checkbox]:checked + label {
+  color:#84BD00;
+  text-decoration: line-through;
+}
+
+/* side panle */
+#bottom-s{
+	position: relative;
+}
+#bottom-s::before {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 3.5%;
+	width: 93%;
+	height: 32px;
+	background: #aa9393;
+}
+
+.custom-d-well{
+	background: #e6d9d9;
+	border: none;
+	position: relative;
+	border-radius: 0px;
+	border-top-left-radius: 20px;
+	padding: 3rem 1rem;
+}
+
+.custom-d-well::after{
+	content: "\f0d7";
+	font-family: fontAwesome;
+	position: absolute;
+	top: -14px;
+	left: 0px;
+	font-size: 33px;
+	transform: rotate(-45deg);
+	color: #b6a6a6;
+	text-shadow: 0px 2px 9px #a48585;
+}
+
+.custom-d-well button{
+	margin: 0px;
+    margin-left: 0px;
+	padding: 0.5rem 1rem;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.inner-well{
+	background: #e1dbdb;
+	border-radius: 42px;
+	padding: 8px 2rem;
+	border: none;
+	position: relative;
+}
+
+.link{
+	background: gray;
+	color: white;
+	border-radius: 42px;
+	padding: 9px 2rem;
+	margin-left: -19px;
+	cursor: pointer;
+}
+
+.inner-list{
+	list-style-type: disc;
+	margin-left: 26px;
+}
+
+
+
+/*===================================
+second tab starte here
+==============================*/
+
+.overflow{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 400px;
+}
+
+/* lenthy */
+
+.item3{
+	position: relative;
+	height: 300px !important;
+
+	float: left;
+	width: 15%;
+}
+
+/* wide */
+.item2{
+
+	height: 150px !important;
+
+	width: 47%;
+	float: left;
+	position: relative;
+}
+
+.illus{
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+
+.illus:hover + .overlay{
+	
+}
+
+/* simple */
+
+.item1{
+	height: 200px !important;
+	float: left;
+
+	width: 30%;
+	position: relative;
+}
+
+
+.flexmodel > div[class*="item"]{
+	margin: 10px;
+}
+
+.flexmodel img{
+	width: 100%;
+	cursor: pointer;
+	margin-bottom: 20px;
+	height: 100%;
+}
+
+
+.flexmodel{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+/* hover effect over image */
+
+.image {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0E191D80;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.text {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.item1:hover > .overlay{
+	height: 100%;
+}
+
+.item1::after{
+	content: "\f02b";
+	font-family: fontAwesome;
+	color: white;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: white;
+	background: #000000b3;
+	text-align: center;
+	padding: 9px 10px;
+
+}
+
+.item2:hover > .overlay{
+	height: 100%;
+}
+
+.item2::after{
+	content: "\f02b";
+	font-family: fontAwesome;
+	color: white;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: white;
+	background: #000000b3;
+	text-align: center;
+	padding: 9px 10px;
+
+}
+
+.item3:hover > .overlay{
+	height: 100%;
+}
+
+.item3::after{
+	content: "\f02b";
+	font-family: fontAwesome;
+	color: white;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: white;
+	background: #000000b3;
+	text-align: center;
+	padding: 9px 10px;
+
+}
+
+
+
+
+
+
