@@ -890,10 +890,187 @@ second tab starte here
 		all dasboard main content end
 =========================================*/
 
+/* overaly nav add btn */
 
 
 
+.nav-overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;  
+    background-color: #333333;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
 
+.nav-overlay-content {
+    position: relative;
+    top: 0%;
+    height: auto;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-overlay > a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav-overlay > a:hover, .nav-overlay > a:focus {
+    color: #f1f1f1;
+}
+
+.nav-overlay .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 60px;
+}
+
+/* nav overlay content */
+
+.aside{
+	background: #444444;
+	color: #B4B4B4;
+	height: 666px;
+	padding: 2rem 0rem;
+}
+
+.aside > ul > li{
+	color: #dbcccc;
+	padding: 1rem 1rem;
+	border-bottom: 2px solid #757474;
+	cursor: pointer;
+}
+
+.aside li > a{
+	color: #dbcccc;
+}
+
+.aside li a > i{
+	margin-right: 10px;
+}
+
+.submenu li{
+	padding: 1rem 4rem;
+	color: #dbccccb3;
+	cursor: pointer;
+	transition: .2s all ease;
+}
+
+.submenu li:hover{
+	background: #d4d4d4;
+	color: black;
+}
+
+.childd li{
+	position: relative;
+	padding-left: 7rem;
+}
+.childd li::before{
+	content: "\f111";
+	font-family: fontAwesome;
+	position: absolute;
+	left: 55px;
+	top: 16px;
+	color: #dbccccb3;
+	font-size: 6px;
+}
+
+/* remingin overlay content */
+
+.s-box{
+	width: 100%;
+	position: relative;
+	cursor: pointer;
+	height: 333px;
+	padding: 2rem 4rem .4rem;
+	border-right: 10px solid #000000b3;
+	border-bottom: 10px solid #000000b3;
+}
+
+.s-box .col-xs-3{
+	background: url('../images/sprite.png') no-repeat -9px -135px;
+	transition: .2s all ease;
+	height: 71px;
+}
+
+#two-s{
+background: url('../images/sprite.png') no-repeat -9px -19px;
+	width: 82px;
+	height: 71px;
+}
+
+#three-s{
+	background: url('../images/sprite.png') no-repeat -24px -255px;
+	width: 52px;
+	height: 70px;
+}
+
+
+.s-box:hover .my-hide{
+	opacity: 1;
+	left: 0px;
+
+}
+
+.right-s-box .s-box{
+	padding-left: 2rem;
+}
+
+.s-box-holder > .col-md-6 , .s-rem , .aside-col{
+	padding: 0px;
+	overflow: hidden;
+}
+
+	.s-box::before{
+		content: "";
+	position: absolute;
+	top: 0px;
+	right: 11px;
+	opacity: 0;
+	background: url('../images/hover.png') , linear-gradient(to top right,#333,#333);
+	width: 300px;
+	background-size: cover;
+	transition: .7s all ease;
+	height: 88%;
+	}
+
+	.s-box:hover::before{
+		content: "";
+		position: absolute;
+		top: 0px;
+		right: 11px;
+		
+		opacity: .5;
+		background: url('../images/hover.png') , linear-gradient(to top right,#333,#333);
+		background-size: cover;
+		width: 300px;
+		height: 88%;
+	}
+
+.s-box:hover .col-xs-3{
+	background-color: #222222;
+}
+
+.my-hide{
+	opacity: 0;
+	position: relative;
+	left: -10px;
+	transition: .7s all ease;
+}
+
+.right-s-box .s-box{
+	border-right: none;	
+}
 
 
 
