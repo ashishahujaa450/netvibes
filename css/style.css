@@ -544,43 +544,7 @@ border: none;
  	margin-right: 10px;
  }
 
-#resizable{
-	border-right: 2px solid white;
-}
-
-#resizable2{
-	border-right: 2px solid white;
-}
-
-#resizable3{
-	border-right: 2px solid white;
-}
-
-#resizable4{
-	border-right: 2px solid white;
-}
-
-#resizable5{
-	border-right: 2px solid white;
-}
-
-#resizable6{
-	border-right: 2px solid white;
-}
-
-#resizable7{
-	border-right: 2px solid white;
-}
-
-#resizable8{
-	border-right: 2px solid white;
-}
-
-#resizable9{
-	border-right: 2px solid white;
-}
-
-#resizable10{
+div[id*="resiz"]{
 	border-right: 2px solid white;
 }
 
@@ -847,11 +811,27 @@ second tab starte here
   padding: 1rem;
 }
 
-.item1:hover > .overlay{
+.holder{
+	width: 100%;
+	height: auto;
+	margin-bottom: 25px;
+	position: relative;
+	display: table;
+}
+
+.holder:hover > .overlay{
 	height: 100%;
 }
 
-.item1::after{
+.len{
+	height: 300px !important;
+}
+
+.wide{
+	height: 150px !important;
+}
+
+.holder::after{
 	content: "\f02b";
 	font-family: fontAwesome;
 	color: white;
@@ -865,41 +845,54 @@ second tab starte here
 
 }
 
-.item2:hover > .overlay{
-	height: 100%;
+/* panel second row first panel list graup */
+
+.custom-object h4{
+	font-size: 15px;
 }
 
-.item2::after{
+.custom-object p{
+	margin-bottom: 0px;
+}
+
+.custom-object{
+	border-bottom: 1px solid #d4d4d4;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.custom-object .media-left > img{
+	width: 89px;
+	height: 78px;
+}
+
+.custom-object .media-body{
+	padding-right: 18px;
+}
+
+.custom-object::after{
 	content: "\f02b";
 	font-family: fontAwesome;
 	color: white;
 	position: absolute;
-	right: 0px;
-	top: 0px;
-	color: white;
-	background: #000000b3;
+	right: -6px;
+	top: -13px;
+	color: black;
 	text-align: center;
 	padding: 9px 10px;
-
 }
 
-.item3:hover > .overlay{
-	height: 100%;
+.p-control{
+	padding: 0px !important;
 }
 
-.item3::after{
-	content: "\f02b";
-	font-family: fontAwesome;
-	color: white;
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	color: white;
-	background: #000000b3;
-	text-align: center;
-	padding: 9px 10px;
+/*=========================================
+		all dasboard main content end
+=========================================*/
 
-}
+
+
+
 
 
 
