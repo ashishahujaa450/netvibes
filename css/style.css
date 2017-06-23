@@ -1072,6 +1072,24 @@ background: url('../images/sprite.png') no-repeat -9px -19px;
 	border-right: none;	
 }
 
+/* setting inverser modal */
+
+.setting-modal .modal-content{
+	background: #444444;
+	color: white; 
+	cursor: move;
+	border-radius: 0px;
+}
+
+.setting-modal .modal-header , .setting-modal .modal-footer{
+	background: #595959;
+}
+
+.setting-modal .modal-footer .btn-primary{
+	padding: 6px 12px;
+}
+
+
 
 
 

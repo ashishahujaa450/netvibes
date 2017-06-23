@@ -74,6 +74,12 @@
 		  $( function() {
 		    $( "#resizable12" ).resizable();
 		  } );
+
+		  // dragable div
+
+		    $( function() {
+			    $( "#draggable" ).draggable();
+			} );
   	</script>
 
 
@@ -282,8 +288,36 @@
 			<div class="d-left-section pull-right">
 				<ul class="list-inline">
 					<li>
-						<a href="#"><i class="fa fa-align-justify"></i> </a>
-					</li>
+						<!---setting dragable modal dark-->
+						<!---setting dragable modal dark-->
+
+						<a href="#"><i class="fa fa-align-justify" data-backdrop="false" data-toggle="modal" data-target="#draggable"></i> </a>
+
+						 <!-- Modal -->
+						  <div class="modal fade setting-modal" role="dialog" id="draggable">
+						    <div class="modal-dialog modal-lg">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content">
+
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" style="color:white;font-size:35px;">&times;</button>
+						          <h4 class="modal-title">Modal Header</h4>
+						        </div><!--end modal header-->
+
+						        <div class="modal-body">
+						          <p>Some text in the modal.</p>
+						        </div><!--end modal body-->
+
+						        <div class="modal-footer">
+						          <button type="" class="btn btn-default btn btn-primary my-primary">Done</button>
+						          <button class="btn btn-default" data-dismiss="modal">Discard</button>
+						        </div>
+						      </div><!--end modal content-->
+						      
+						    </div><!--end modal dialuge-->
+						  </div><!--end modal-->
+					</li><!--end li with dragable setting modal-->
 
 					<li>
 						<div class="dropdown pull-left custom-drop">
