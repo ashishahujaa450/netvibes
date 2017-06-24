@@ -1072,7 +1072,7 @@ background: url('../images/sprite.png') no-repeat -9px -19px;
 	border-right: none;	
 }
 
-/* setting inverser modal */
+/* setting inverser dragable modal */
 
 .setting-modal .modal-content{
 	background: #444444;
@@ -1088,6 +1088,304 @@ background: url('../images/sprite.png') no-repeat -9px -19px;
 .setting-modal .modal-footer .btn-primary{
 	padding: 6px 12px;
 }
+
+.m-aside{
+	background: #383838;
+	padding: 2rem 0rem;
+	color: #D2D2D2;
+}
+
+.m-aside h4{
+	padding-left: 1rem;
+}
+
+.m-aside ul li a{
+	padding-left: 2rem;
+}
+
+.drag-modal .modal-body{
+	padding-top: 0px;
+	cursor: default;
+padding-bottom: 0px;
+}
+
+.drag-modal .modal-footer{
+	cursor: default;
+}
+
+.m-aside .nav-pills li a{
+	transition: .2s all ease;
+}
+
+.m-aside .nav-pills > li.active > a, .m-aside .nav-pills > li.active > a:focus,.m-aside .nav-pills > li.active > a:hover {
+    color: #000;
+    border-radius: 0px;
+    background-color: #d4d4d4;
+}
+
+.m-aside .nav-pills > li > a:hover{
+	color: #000;
+    border-radius: 0px;
+    background-color: #d4d4d4;
+}
+
+.d-overflow{
+	overflow-y: auto;
+}
+
+.d-border{
+	border-bottom: 1px solid #d4d4d4;
+}
+
+/* right side content on dragable modal */
+
+/* general setting tab */
+
+.m-main-c{
+	background: #444444;
+	padding: 0px;
+}
+
+.m-top{
+	display: table;
+	padding: 1rem 4rem;
+}
+
+.i-list li a{
+	color: white;
+	position: relative;
+left: -11%;
+	font-size: 16px;
+}
+.i-list li a:hover{
+	text-decoration: none;
+}
+
+.i-list li{
+	padding: 0rem 2rem;
+	
+}
+
+.interface .col-xs-12{
+	padding-left: 4rem;
+}
+
+/* checkbox style */
+
+.check input {
+  display: none;
+}
+.check input:checked + label .box {
+  -webkit-animation: animOn 0.6s 1 forwards;
+          animation: animOn 0.6s 1 forwards;
+  background: rgba(0, 0, 0, 0.5);
+}
+.check input:checked + label .box i {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  opacity: 1;
+}
+.check label {
+  min-width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 60px;
+  cursor: pointer;
+}
+.check label .box {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: background 300ms ease;
+  transition: background 300ms ease;
+}
+.check label .box:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.check label .box i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  display: inline-block;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-delay: 200ms;
+          transition-delay: 200ms;
+  -webkit-transform: translate(-50%, -50%) scale(6);
+          transform: translate(-50%, -50%) scale(6);
+}
+
+@-webkit-keyframes animOn {
+  40% {
+    height: 20px;
+    width: 100px;
+  }
+  50% {
+    height: 65px;
+    width: 30px;
+  }
+  60% {
+    height: 40px;
+    width: 70px;
+  }
+  70% {
+    height: 55px;
+    width: 45px;
+  }
+  100% {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@keyframes animOn {
+  40% {
+    height: 20px;
+    width: 100px;
+  }
+  50% {
+    height: 65px;
+    width: 30px;
+  }
+  60% {
+    height: 40px;
+    width: 70px;
+  }
+  70% {
+    height: 55px;
+    width: 45px;
+  }
+  100% {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.check{
+	transform: scale(.6);
+	width: 74px;
+	margin-left: -36px;
+	position: relative;
+	top: -20px;
+}
+/* end of custom code */
+
+.dModal1{
+	height: 368px;
+}
+
+.m-bottom{
+	height: 309px;
+}
+
+/* second tab content */
+
+.map-holder{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	display: block;
+}
+
+svg{
+	transform: scale(.6);
+position: relative;
+top: -164px;
+}
+
+.land{
+	fill: #444444;
+	fill-opacity: 1;
+	stroke:white;
+	transition: .2s all ease;
+	stroke-opacity: 1;
+	stroke-width:0.5;
+}
+
+.land:hover{
+	fill: #7CAF20;
+	cursor: pointer;
+}
+
+#dModal2 .m-top{
+	background: #666666;
+}
+
+.d-local{
+	height: 
+}
+
+#dModal2 .m-bottom{
+	height: 108px;
+}
+
+.tag-list li{
+
+}
+
+.tag-list li a{
+	padding: 1rem;
+border: 2px solid #d4d4d4;
+border-radius: 5px;
+line-height: 56px;
+transition: .2s all ease;
+}
+.tag-list li a:hover{
+	background-color: #d4d4d4;
+	color: black;
+	text-decoration: none;
+}
+
+/* three modal content drageable */
+
+#dModal3 .m-bottom{
+	height: 121px;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+#dModal3 .progress{
+	height: 13px;
+}
+
+#dModal3 .d-local{
+	height: 158px;
+}
+
+#dModal3 .lead{
+	font-size: 21px;
+margin-bottom: 0px;
+margin-top: -11px;
+}
+
+.custom-p-bar{
+	background-color: #81b40c;
+}
+
+/* fifth modal content dragable */
+
+/* custom sub tabs */
+
+
+
+
 
 
 
