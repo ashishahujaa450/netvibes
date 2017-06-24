@@ -22,6 +22,11 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/custom.js"></script>
 
+
+	
+	
+
+
 	<!--jquery ui files-->
 
 	<link rel="stylesheet" href="assets/jquery-ui.css" />
@@ -87,6 +92,8 @@
 		    $( function() {
 			    $( "#draggable" ).draggable();
 			} );
+
+			$('.d-overflow').perfectScrollbar();
   	</script>
 
 
@@ -780,8 +787,7 @@
 										<!--fifth tab content dragable modal-->
 
 
-										<!--continue buddy-->
-										<!--continue buddy-->
+										
 										<div id="dModal5" class="dModal1 tab-pane fade">
 							          		<!--conten header-->
 											<div class="m-top flexible">
@@ -794,19 +800,291 @@
 							        					<div class="row">
 								        					<div class="col-xs-12">
 								        						<ul class="nav nav-tabs custom-sub-tabs">
-																    <li class="active"><a data-toggle="tab" href="#cst1">Home</a></li>
-																    <li><a data-toggle="tab" href="#cst2">Menu 1</a></li>			    
+																    <li class="active"><a data-toggle="tab" href="#cst1">Header</a></li>
+																    <li><a data-toggle="tab" href="#cst2">Bottom</a></li>			    
 																  </ul><!--end custom subtabs-->
 
 																<div class="tab-content custom-sub-content">
+
 																    <div id="cst1" class="tab-pane fade in active">
-																      <h3>HOME</h3>
-																      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-																    </div>
+																    	<br><br>
+
+																      <form action="#" method="post" class="form-horizontal custom-t-f">
+																      	<div class="form-group">
+																		    <label for="inputEmail3" class="col-sm-5 control-label text-left">Add a header picture (link url)</label>
+																		    <div class="col-sm-6">
+																		      <input type="email" class="form-control" id="inputEmail3">
+																		    </div>
+																		    <div class="col-sm-1 text-left">
+																		    	<i class="fa  fa-plus-circle text-muted fa-2x"></i>
+																		    </div>
+																		</div><!--end form group-->
+
+																		<!--second row with radios-->
+																		<!--second row with radios-->
+																		<!--second row with radios-->
+																			<br><br>
+																		<div class="form-group">
+
+																		    <label for="inputEmail3" class="col-sm-3 control-label text-left">Or background color</label>
+
+																		    <div class="col-sm-3">
+																		      <ul class="radio">
+																				<li>
+																					<input checked type="radio" name="1">
+																					<label>Default</label>
+																					<div class="bullet">
+																						<div class="line zero"></div>
+																						<div class="line one"></div>
+																						<div class="line two"></div>
+																						<div class="line three"></div>
+																						<div class="line four"></div>
+																						<div class="line five"></div>
+																						<div class="line six"></div>
+																						<div class="line seven"></div>
+																					</div>
+																				</li>					
+																			</ul>
+																		    </div><!--end col sm-3-->
+
+																		    <div class="col-sm-3">
+																		      <ul class="radio">
+																				<li>
+																					<input type="radio" name="1">
+																					<label>Transparent</label>
+																					<div class="bullet">
+																						<div class="line zero"></div>
+																						<div class="line one"></div>
+																						<div class="line two"></div>
+																						<div class="line three"></div>
+																						<div class="line four"></div>
+																						<div class="line five"></div>
+																						<div class="line six"></div>
+																						<div class="line seven"></div>
+																					</div>
+																				</li>				
+																			</ul>
+																		    </div><!--end col sm-3-->
+
+																		    <div class="col-sm-3">
+																		      <ul class="radio">
+																				<li>
+																					<input type="radio" name="1">
+																					<label>custom</label>
+																					<div class="bullet">
+																						<div class="line zero"></div>
+																						<div class="line one"></div>
+																						<div class="line two"></div>
+																						<div class="line three"></div>
+																						<div class="line four"></div>
+																						<div class="line five"></div>
+																						<div class="line six"></div>
+																						<div class="line seven"></div>
+																					</div>
+																				</li>			
+																			</ul>
+																		    </div><!--end col sm-3-->	    
+																		</div><!--end form group-->
+
+																		<br>
+
+																		<!--third row slider-->
+
+																		<div class="form-group">
+
+																		    <label for="inputEmail4" class="col-sm-4 control-label text-left">Header height</label>
+
+																		    <div class="col-sm-8">
+																		      <div class="range-slider">
+																				  <input class="range-slider__range" type="range" value="100" min="0" max="500">
+																				  
+																				</div>
+																		    </div>
+																		    
+																		</div><!--end form group-->
+
+																		<!--last row -->
+																		<!--last row -->
+
+																		<div class="form-group">
+
+																		    <label for="inputEmail5" class="col-sm-3 control-label text-left">Display Mode</label>
+
+																		    <div class="col-sm-3">
+																		     <div class="dropdown">
+																				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+																				    Dropdown
+																				    <span class="caret"></span>
+																				  </button>
+																				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+																				    <li><a href="#">Action</a></li>
+																				    <li><a href="#">Another action</a></li>
+																				    <li><a href="#">Something else here</a></li>	    
+																				    <li><a href="#">Separated link</a></li>
+																				  </ul>
+																				</div>
+																		    </div>
+
+																		    <div class="col-sm-4 l-d">
+																		    	<span class="text-muted pull-left">Alignment</span>
+
+																		     <div class="dropdown pull-right">
+																				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+																				    Dropdown
+																				    <span class="caret"></span>
+																				  </button>
+																				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+																				    <li><a href="#">Action</a></li>
+																				    <li><a href="#">Another action</a></li>
+																				    <li><a href="#">Something else here</a></li>	    
+																				    <li><a href="#">Separated link</a></li>
+																				  </ul>
+																				</div>
+																		    </div>
+																		    
+																		</div><!--end form group-->
+																      </form><!--end form-->
+																    </div><!--end first tab content-->
+
 																    <div id="cst2" class="tab-pane fade">
-																      <h3>Menu 1</h3>
-																      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-																    </div>
+																    	<br><br>
+
+																      <form action="#" method="post" class="form-horizontal custom-t-f">
+																      	<div class="form-group">
+																		    <label for="inputEmail3" class="col-sm-5 control-label text-left">Add a header picture (link url)</label>
+																		    <div class="col-sm-6">
+																		      <input type="email" class="form-control" id="inputEmail3">
+																		    </div>
+																		    <div class="col-sm-1 text-left">
+																		    	<i class="fa  fa-plus-circle text-muted fa-2x"></i>
+																		    </div>
+																		</div><!--end form group-->
+
+																		<!--second row with radios-->
+																		<!--second row with radios-->
+																		<!--second row with radios-->
+																			<br><br>
+																		<div class="form-group">
+
+																		    <label for="inputEmail3" class="col-sm-3 control-label text-left">Or background color</label>
+
+																		    <div class="col-sm-3">
+																		      <ul class="radio">
+																				<li>
+																					<input checked type="radio" name="1">
+																					<label>Default</label>
+																					<div class="bullet">
+																						<div class="line zero"></div>
+																						<div class="line one"></div>
+																						<div class="line two"></div>
+																						<div class="line three"></div>
+																						<div class="line four"></div>
+																						<div class="line five"></div>
+																						<div class="line six"></div>
+																						<div class="line seven"></div>
+																					</div>
+																				</li>					
+																			</ul>
+																		    </div><!--end col sm-3-->
+
+																		    <div class="col-sm-3">
+																		      <ul class="radio">
+																				<li>
+																					<input type="radio" name="1">
+																					<label>Transparent</label>
+																					<div class="bullet">
+																						<div class="line zero"></div>
+																						<div class="line one"></div>
+																						<div class="line two"></div>
+																						<div class="line three"></div>
+																						<div class="line four"></div>
+																						<div class="line five"></div>
+																						<div class="line six"></div>
+																						<div class="line seven"></div>
+																					</div>
+																				</li>				
+																			</ul>
+																		    </div><!--end col sm-3-->
+
+																		    <div class="col-sm-3">
+																		      <ul class="radio">
+																				<li>
+																					<input type="radio" name="1">
+																					<label>custom</label>
+																					<div class="bullet">
+																						<div class="line zero"></div>
+																						<div class="line one"></div>
+																						<div class="line two"></div>
+																						<div class="line three"></div>
+																						<div class="line four"></div>
+																						<div class="line five"></div>
+																						<div class="line six"></div>
+																						<div class="line seven"></div>
+																					</div>
+																				</li>			
+																			</ul>
+																		    </div><!--end col sm-3-->	    
+																		</div><!--end form group-->
+
+																		<br>
+
+																		<!--third row slider-->
+
+																		<div class="form-group">
+
+																		    <label for="inputEmail4" class="col-sm-4 control-label text-left">Header height</label>
+
+																		    <div class="col-sm-8">
+																		      <div class="range-slider">
+																				  <input class="range-slider__range" type="range" value="100" min="0" max="500">
+																				  
+																				</div>
+																		    </div>
+																		    
+																		</div><!--end form group-->
+
+																		<!--last row -->
+																		<!--last row -->
+
+																		<div class="form-group">
+
+																		    <label for="inputEmail5" class="col-sm-3 control-label text-left">Display Mode</label>
+
+																		    <div class="col-sm-3">
+																		     <div class="dropdown">
+																				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+																				    Dropdown
+																				    <span class="caret"></span>
+																				  </button>
+																				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+																				    <li><a href="#">Action</a></li>
+																				    <li><a href="#">Another action</a></li>
+																				    <li><a href="#">Something else here</a></li>	    
+																				    <li><a href="#">Separated link</a></li>
+																				  </ul>
+																				</div>
+																		    </div>
+
+																		    <div class="col-sm-4 l-d">
+																		    	<span class="text-muted pull-left">Alignment</span>
+
+																		     <div class="dropdown pull-right">
+																				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+																				    Dropdown
+																				    <span class="caret"></span>
+																				  </button>
+																				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+																				    <li><a href="#">Action</a></li>
+																				    <li><a href="#">Another action</a></li>
+																				    <li><a href="#">Something else here</a></li>	    
+																				    <li><a href="#">Separated link</a></li>
+																				  </ul>
+																				</div>
+																		    </div>
+																		    
+																		</div><!--end form group-->
+																      </form><!--end form-->
+																    </div><!--end first tab content-->
 																</div><!--end tab content-->
 
 								        						
@@ -4409,6 +4687,8 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
+
+$('.d-overflow').perfectScrollbar();
 </script>
 
 
@@ -4424,8 +4704,11 @@ function closeNav() {
 
 	<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.js"></script>
 
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.10/js/perfect-scrollbar.jquery.js"></script>
+
 	<!--bootsrap files-->
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
 
 </body>
 </html>
